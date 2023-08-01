@@ -1,3 +1,16 @@
+.nav {
+  color: #434455;
+  font-weight: 600;
+  text-decoration: none;
+}
+.nav:hover {
+  color: #4d5ae5;
+  font-weight: 600;
+}
+.nav:focus {
+  color: #4d5ae5;
+  font-weight: 600;
+}
 .button-item {
   color: #4d5ae5;
   background-color: #f4f4fd;
@@ -35,4 +48,33 @@ h3 {
   size: 12px;
   line-height: 1.16;
   letter-spacing: 4%;
+}
+.adres {
+  color: #434455;
+  size: 12px;
+  line-height: 1.16;
+  letter-spacing: 4%;
+}
+.adres:hover {
+  color: #4d5ae5;
+  size: 12px;
+  line-height: 1.16;
+  letter-spacing: 4%;
+}
+.adres:focus {
+  color: #4d5ae5;
+  size: 12px;
+  line-height: 1.16;
+  letter-spacing: 4%;
+}
+.web-logo {
+  color: #4d5ae5;
+  text-transform: uppercase;
+}
+.studio-logo {
+  color: #2e2f42;
+  text-transform: uppercase;
+}
+a {
+  color: #2e2f42;
 }
