@@ -3,7 +3,7 @@
   background-color: #f4f4fd;
   font-weight: medium;
   size: 16px;
-  line-height: 24px;
+  line-height: 24px1.5;
   letter-spacing: 2%;
 }
 .button-item:hover {
@@ -12,7 +12,7 @@
   cursor: pointer;
   font-weight: medium;
   size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 2%;
 }
 .button-item:focus {
@@ -21,7 +21,7 @@
   cursor: pointer;
   font-weight: medium;
   size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 2%;
 }
 h3 {
@@ -33,6 +33,6 @@ h3 {
 .text-content {
   color: #2e2f42;
   size: 12px;
-  line-height: 14px;
+  line-height: 1.16;
   letter-spacing: 4%;
 }
