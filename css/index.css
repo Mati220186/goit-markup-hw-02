@@ -44,12 +44,19 @@ a {
 }
 .nav {
   color: var(--text);
-  font-weight: 600;
+  font-weight: 500;
+  line-height: 1.5;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  text-align: left;
 }
 .nav:hover,
 .nav:focus {
   color: var(--primary-brand);
 }
+/**/
 .solutions {
   background-color: var(--hero-background);
 }
@@ -65,7 +72,6 @@ a {
   letter-spacing: 1.12px;
 }
 .button-service {
-  display: center;
   padding: 16px 32px;
   align-items: flex-start;
   gap: 10px;
@@ -73,8 +79,21 @@ a {
   color: var(--white-background);
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+
+  /*button-text :Oder Serwice*/
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: left;
 }
-h2 {
+.button-service:hover,
+.button-service:focus {
+  background-color: var(--pressed-state);
+}
+.section-title {
   color: var(--navyblue, #2e2f42);
   /* Header 2 */
   text-align: center;
@@ -84,7 +103,7 @@ h2 {
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
-h3 {
+.subsection-title {
   /* Header 3 */
   color: var(--dark);
   font-size: 20px;
@@ -94,9 +113,12 @@ h3 {
 }
 
 .text-team {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   /*text-align: center;*/
-  line-height: 1.5; /* 150% */
-  letter-spacing: 0.32px;
 }
 .our-team {
   background-color: var(--cloud);
@@ -108,24 +130,28 @@ h3 {
   size: 16px;
   line-height: 24px1.5;
   letter-spacing: 2%;
+  cursor: pointer;
 }
 .button-item:hover,
 .button-item:focus {
   color: var(--cloud);
   background-color: var(--primary-brand);
 }
-
+/*text under pictures*/
 .text-content {
   color: var(--text);
-  size: 12px;
-  line-height: 1.16;
-  letter-spacing: 4%;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .adres {
   color: var(--text);
-  size: 12px;
-  line-height: 1.16;
-  letter-spacing: 4%;
+  size: 16px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: left;
 }
 .adres:hover,
 .adres:focus {
@@ -150,4 +176,16 @@ h3 {
 }
 .studio-logo-footer {
   color: var(--cloud);
+}
+.studio-logo-footer:hover,
+.studio-logo-footer:focus {
+  color: var(--pressed-state);
+}
+.footer-text {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: left;
 }
