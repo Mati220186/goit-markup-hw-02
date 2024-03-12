@@ -16,6 +16,7 @@ body {
   font-family: var(--main-font);
   color: var(--text);
   text-decoration: none;
+  background-color: var(--white-background);
 }
 a {
   text-decoration: none;
@@ -25,9 +26,9 @@ a {
   font-family: Raleway;
   font-size: 18px;
   font-style: normal;
-  font-weight: 800;
-  line-height: 1.16; /* 116.667% */
-  letter-spacing: 0.54px;
+  font-weight: 700;
+  line-height: 1.17; /* 116.667% */
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
@@ -43,7 +44,7 @@ a {
   list-style: none;
 }
 .nav {
-  color: var(--text);
+  color: var(--dark);
   font-weight: 500;
   line-height: 1.5;
   font-family: Roboto;
@@ -54,7 +55,10 @@ a {
 }
 .nav:hover,
 .nav:focus {
-  color: var(--primary-brand);
+  color: var(--pressed-state);
+}
+.address {
+  font-style: normal;
 }
 /**/
 .solutions {
@@ -72,13 +76,10 @@ a {
   letter-spacing: 1.12px;
 }
 .button-service {
-  padding: 16px 32px;
-  align-items: flex-start;
-  gap: 10px;
+  /*padding: 16px 32px;*/
+
   background: var(--primary-brand);
   color: var(--white-background);
-  border-radius: 4px;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   cursor: pointer;
 
   /*button-text :Oder Serwice*/
@@ -118,7 +119,6 @@ a {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  /*text-align: center;*/
 }
 .our-team {
   background-color: var(--cloud);
@@ -155,15 +155,15 @@ a {
 }
 .adres:hover,
 .adres:focus {
-  color: var(--primary-brand);
+  color: var(--pressed-state);
 }
 .footer {
   background-color: var(--hero-background);
   color: var(--cloud);
 }
 .web-logo-footer {
-  width: 44px;
-  height: 21px;
+  /*width: 44px;
+  height: 21px;*/
   color: var(--primary-brand);
   font-family: Raleway;
   font-size: 18px;
