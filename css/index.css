@@ -23,7 +23,7 @@ a {
 }
 .web-logo {
   color: var(--primary-brand);
-  font-family: "Raleway" sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -72,7 +72,7 @@ a {
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
-  line-height: 60px; /* 107.143% */
+  line-height: 1.07; /* 107.143% */
   letter-spacing: 1.12px;
 }
 .button-service {
@@ -126,9 +126,10 @@ a {
 .button-item {
   color: var(--primary-brand);
   background-color: var(--cloud);
+  font-family: "Roboto", sans-serif;
   font-weight: medium;
   size: 16px;
-  line-height: 24px1.5;
+  line-height: 1.5;
   letter-spacing: 2%;
   cursor: pointer;
 }
