@@ -23,7 +23,7 @@ a {
 }
 .web-logo {
   color: var(--primary-brand);
-  font-family: Raleway;
+  font-family: "Raleway" sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
