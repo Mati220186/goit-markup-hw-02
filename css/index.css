@@ -51,7 +51,7 @@ a {
   font-size: 16px;
   font-weight: 500;
   letter-spacing: 0.02em;
-  text-align: left;
+  /*text-align: left;*/
 }
 .nav:hover,
 .nav:focus {
@@ -88,7 +88,7 @@ a {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  text-align: left;
+  /*text-align: left;*/
 }
 .button-service:hover,
 .button-service:focus {
@@ -152,7 +152,7 @@ a {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-align: left;
+  /*text-align: left;*/
 }
 .adres:hover,
 .adres:focus {
@@ -163,8 +163,6 @@ a {
   color: var(--cloud);
 }
 .web-logo-footer {
-  /*width: 44px;
-  height: 21px;*/
   color: var(--primary-brand);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -188,7 +186,7 @@ a {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-align: left;
+  /*text-align: left;*/
 }
 .section-strategy {
   line-height: 1.5;
