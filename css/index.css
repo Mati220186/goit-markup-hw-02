@@ -166,11 +166,11 @@ a {
   /*width: 44px;
   height: 21px;*/
   color: var(--primary-brand);
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-style: normal;
-  font-weight: 800;
-  line-height: 21px; /* 116.667% */
+  font-weight: 700;
+  line-height: 1.17; /* 116.667% */
   letter-spacing: 0.54px;
   text-transform: uppercase;
   justify-content: center;
