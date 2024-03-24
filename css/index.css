@@ -83,7 +83,7 @@ a {
   cursor: pointer;
 
   /*button-text :Oder Serwice*/
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -193,4 +193,10 @@ a {
 .section-strategy {
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+.doing {
+  background-color: var(--cloud);
+}
+.card {
+  background-color: var(--white-background);
 }
